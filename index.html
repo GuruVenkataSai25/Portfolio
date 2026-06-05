@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>GVS Tatavolu — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;0,700;1,300&family=Syne:wght@400;500;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+<canvas id="stars"></canvas>
+
+<div class="shell">
+
+  <nav>
+    <div class="nav-logo">G<span>VS</span></div>
+    <ul class="nav-menu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certificates">Certs</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-line"></div>
+    <div class="hero-left">
+      <div class="hero-eyebrow">Available for Internship</div>
+      <h1 class="hero-name">
+        Guru Venkata
+        <em>Sai Tatavolu</em>
+      </h1>
+      <p class="hero-role">Web Developer &nbsp;·&nbsp; B.Tech Student</p>
+      <div class="typewriter" id="typewriter"></div>
+      <div class="hero-actions">
+        <a href="#contact"><button class="btn-gold">Get In Touch</button></a>
+        <a href="#projects"><button class="btn-outline">View Projects</button></a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div>
+        <div class="photo-frame">
+          <div class="photo-inner">
+            <img src="./profile.jpg" alt="Guru Venkata Sai Tatavolu" loading="eager"/>
+          </div>
+        </div>
+        <p class="photo-label">Kakinada, Andhra Pradesh</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="sec-head reveal">
+      <span class="sec-num">01</span>
+      <span class="sec-label">Who I am</span>
+      <h2 class="sec-title">About Me</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-body reveal">
+        <p>I am <strong>Guru Venkata Sai Tatavolu</strong>, a <em>driven and curious web developer</em> currently pursuing my B.Tech at Kakinada Institute of Engineering and Technology, Andhra Pradesh.</p>
+        <p>My journey into web development started with a structured course under <strong>Code With Swaroop</strong>, where I built a strong foundation in HTML and CSS — the bedrock of every great web experience.</p>
+        <p>Beyond coursework, I've been independently exploring <em>Python</em> and applying what I learn through hands-on mini projects. I believe in building things, not just studying them.</p>
+        <p>I am actively seeking an <strong>internship opportunity</strong> where I can contribute, grow, and collaborate with a team that builds meaningful products.</p>
+        <div class="about-stats">
+          <div class="stat"><div class="stat-num">2+</div><div class="stat-label">Years Learning</div></div>
+          <div class="stat"><div class="stat-num">3+</div><div class="stat-label">Projects Built</div></div>
+          <div class="stat"><div class="stat-num">3</div><div class="stat-label">Certificates</div></div>
+          <div class="stat"><div class="stat-num">∞</div><div class="stat-label">Curiosity</div></div>
+        </div>
+      </div>
+      <div class="about-right reveal">
+        <ul class="info-list">
+          <li><span class="il-key">Degree</span><span class="il-val">B.Tech (Pursuing)</span></li>
+          <li><span class="il-key">Institution</span><span class="il-val">Kakinada Institute of Engineering & Technology</span></li>
+          <li><span class="il-key">Learned Under</span><span class="il-val">Code With Swaroop</span></li>
+          <li><span class="il-key">Specialisation</span><span class="il-val">Front-End Web Development</span></li>
+          <li><span class="il-key">Location</span><span class="il-val">Andhra Pradesh, India</span></li>
+          <li><span class="il-key">Status</span><span class="il-val">Open to Internships ✦</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="sec-head reveal">
+      <span class="sec-num">02</span>
+      <span class="sec-label">Expertise</span>
+      <h2 class="sec-title">Skills</h2>
+    </div>
+    <div class="skills-layout">
+      <div class="reveal">
+        <p class="skill-group-title">Technical Proficiency</p>
+        <div class="skill-row">
+          <div class="skill-top"><span class="skill-name">HTML5</span><span class="skill-pct">78%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="--w:78%"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-top"><span class="skill-name">CSS3 &amp; Layout</span><span class="skill-pct">70%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="--w:70%"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-top"><span class="skill-name">Python</span><span class="skill-pct">55%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="--w:55%"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-top"><span class="skill-name">Responsive Design</span><span class="skill-pct">62%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="--w:62%"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-top"><span class="skill-name">Git &amp; Version Control</span><span class="skill-pct">40%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="--w:40%"></div></div>
+        </div>
+      </div>
+      <div class="reveal">
+        <p class="skill-group-title">Soft Skills &amp; Tools</p>
+        <div class="tags-cloud">
+          <span class="tag">Problem Solving</span>
+          <span class="tag">Team Work</span>
+          <span class="tag">VS Code</span>
+          <span class="tag">Attention to Detail</span>
+          <span class="tag">Quick Learner</span>
+          <span class="tag">Communication</span>
+          <span class="tag">Chrome DevTools</span>
+          <span class="tag">Figma (Basic)</span>
+          <span class="tag">Time Management</span>
+          <span class="tag">Research</span>
+        </div>
+        <div style="margin-top:50px;">
+          <p class="skill-group-title">Currently Learning</p>
+          <div class="tags-cloud">
+            <span class="tag gold-tag">JavaScript</span>
+            <span class="tag gold-tag">React.js</span>
+            <span class="tag gold-tag">Node.js</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section id="certificates">
+    <div class="sec-head reveal">
+      <span class="sec-num">03</span>
+      <span class="sec-label">Achievements</span>
+      <h2 class="sec-title">Certificates</h2>
+    </div>
+    <div class="cert-list reveal">
+      <div class="cert-item">
+        <div class="cert-num">01</div>
+        <div class="cert-name">HTML &amp; CSS Fundamentals</div>
+        <div class="cert-by">Code With Swaroop</div>
+        <div class="cert-desc">Completed a structured curriculum covering semantic HTML5, CSS3 foundations, Flexbox, Grid system, animations, and responsive design principles for real-world web development.</div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-num">02</div>
+        <div class="cert-name">Python Programming Basics</div>
+        <div class="cert-by">Self-Paced / Online Platform</div>
+        <div class="cert-desc">Covered Python syntax, data types, control structures, functions, file handling, and introductory object-oriented programming with hands-on scripting exercises.</div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-num">03</div>
+        <div class="cert-name">Web Development Workshop</div>
+        <div class="cert-by">KIET, Kakinada</div>
+        <div class="cert-desc">Participated in a college-level intensive workshop on modern front-end standards, accessibility, and best practices — collaborating with peers on live mini-projects.</div>
+      </div>
+    </div>
+    <p class="cert-wip reveal">✦ &nbsp; JavaScript &amp; React certifications — In Progress &nbsp; ✦</p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="sec-head reveal">
+      <span class="sec-num">04</span>
+      <span class="sec-label">Work</span>
+      <h2 class="sec-title">Projects</h2>
+    </div>
+    <div class="proj-list reveal">
+      <div class="proj-item">
+        <div class="proj-marker"></div>
+        <div class="proj-cat">Web Development</div>
+        <div class="proj-title">Personal Portfolio Website</div>
+        <div class="proj-desc">Designed and built a fully responsive portfolio website from scratch to showcase skills, experience, and achievements — with a focus on premium UI aesthetics and clean code structure.</div>
+        <div class="proj-stack">
+          <span class="stack-pill">HTML5</span><span class="stack-pill">CSS3</span>
+          <span class="stack-pill">Vanilla JS</span><span class="stack-pill">Responsive</span>
+        </div>
+      </div>
+      <div class="proj-item">
+        <div class="proj-marker"></div>
+        <div class="proj-cat">Python</div>
+        <div class="proj-title">Python Utility Scripts</div>
+        <div class="proj-desc">Collection of beginner Python projects: a CLI calculator, interactive quiz app, and a basic contact management system — built to solidify core programming concepts.</div>
+        <div class="proj-stack">
+          <span class="stack-pill">Python 3</span><span class="stack-pill">CLI</span><span class="stack-pill">OOP</span>
+        </div>
+      </div>
+      <div class="proj-item proj-coming">
+        <div class="proj-cat">Next Up</div>
+        <div class="proj-title">JavaScript Project — Coming Soon</div>
+        <div class="proj-desc">Currently building a dynamic web application using vanilla JavaScript as part of upskilling toward React.js development.</div>
+        <div class="proj-stack">
+          <span class="stack-pill">JavaScript</span><span class="stack-pill">DOM API</span>
+        </div>
+      </div>
+      <div class="proj-item proj-coming">
+        <div class="proj-cat">Internship</div>
+        <div class="proj-title">Internship Project Slot</div>
+        <div class="proj-desc">Reserved for the project I'll build during my first internship — stay tuned.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="sec-head reveal">
+      <span class="sec-num">05</span>
+      <span class="sec-label">Let's Connect</span>
+      <h2 class="sec-title">Contact</h2>
+    </div>
+    <div class="contact-layout">
+      <div class="contact-left reveal">
+        <p>I'm actively seeking internship opportunities in web and software development. If you're building something great and need a driven, fast-learning developer — let's talk.</p>
+        <div class="contact-links">
+          <a class="contact-card" href="tel:9951322779" aria-label="Call Guru">
+            <span class="contact-icon">📞</span>
+            <div class="contact-copy">
+              <span class="contact-title">Phone</span>
+              <span class="contact-value">+91 9951322779</span>
+            </div>
+          </a>
+          <a class="contact-card" href="mailto:tatavoluguruvenkatasai2006@gmail.com" aria-label="Email Guru">
+            <span class="contact-icon">✉️</span>
+            <div class="contact-copy">
+              <span class="contact-title">Email</span>
+              <span class="contact-value">tatavoluguruvenkatasai2006@gmail.com</span>
+            </div>
+          </a>
+          <a class="contact-card" href="https://www.linkedin.com/in/guru-venkata-sai-293578374/" target="_blank" rel="noreferrer noopener" aria-label="Visit LinkedIn profile">
+            <span class="contact-icon">in</span>
+            <div class="contact-copy">
+              <span class="contact-title">LinkedIn</span>
+              <span class="contact-value">linkedin.com/in/guru-venkata-sai-293578374</span>
+            </div>
+          </a>
+          <a class="contact-card" href="https://github.com/GuruVenkataSai25" target="_blank" rel="noreferrer noopener" aria-label="Visit GitHub profile">
+            <span class="contact-icon">🐙</span>
+            <div class="contact-copy">
+              <span class="contact-title">GitHub</span>
+              <span class="contact-value">github.com/GuruVenkataSai25</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="contact-form reveal">
+        <p class="form-heading">Send a Message</p>
+        <div class="form-field">
+          <label>Your Name</label>
+          <input type="text" placeholder="Full name"/>
+        </div>
+        <div class="form-field">
+          <label>Email Address</label>
+          <input type="email" placeholder="you@email.com"/>
+        </div>
+        <div class="form-field">
+          <label>Subject</label>
+          <input type="text" placeholder="Internship opportunity / Collaboration..."/>
+        </div>
+        <div class="form-field">
+          <label>Message</label>
+          <textarea rows="5" placeholder="Tell me about the opportunity..."></textarea>
+        </div>
+        <button class="btn-gold btn-full">Send Message</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-logo">GVS Tatavolu</div>
+    <div class="footer-copy">© 2025 — All Rights Reserved</div>
+    <a href="#hero" class="footer-back">Back to Top ↑</a>
+  </footer>
+
+</div><!-- /shell -->
+
+<script src="script.js"></script>
+</body>
+</html>
